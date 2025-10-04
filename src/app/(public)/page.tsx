@@ -9,7 +9,6 @@ export default async function HomePage() {
     }
   });
   const { data: blogs } = await res.json();
-  console.log(blogs.data);
 
   return (
     <div>
